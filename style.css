@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ body {
+    font-family: sans-serif;
+ }
+
+.container-cabecalho {
+    width: 100%;
+}
+.cabecalho {
+  background-color: #fae6d7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  /* margin: 0 80px; */
+}
+
+.cabecalho img {
+  height: 100px;
+  border-radius: 100px;
+}
+
+.cabecalho ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  list-style: none;
+}
+ .cabecalho a {
+    text-decoration: none;
+    color: #603d2e;
+    font-weight: bold;
+ }
+
