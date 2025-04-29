@@ -2,26 +2,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #fae6d78a;
 }
  body {
     font-family: sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
 
 .container-cabecalho {
     width: 100%;
 }
 .cabecalho {
-  background-color: #fae6d7;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 50px;
-  /* margin: 0 80px; */
 }
 
 .cabecalho img {
-  height: 100px;
+  height: 80px;
   border-radius: 100px;
+  padding-right: 30px;
 }
 
 .cabecalho ul {
@@ -36,3 +37,21 @@
     font-weight: bold;
  }
 
+.banner-afro {
+    background-image: url(img/banner-afro-zero.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.banner-afro h1 {
+color: #603d2e;
+display: flex;
+width: 60%;
+position: absolute;
+
+
+
+}
