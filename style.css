@@ -2,15 +2,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #fae6d78a;
-}
- body {
-    font-family: sans-serif;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- }
 
+  
+
+}
+body {
+  font-family: sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+}
+
+/* CABEÇALHO */
 .container-cabecalho {
-    width: 100%;
+  width: 100%;
+ 
 }
 .cabecalho {
   display: flex;
@@ -31,27 +37,45 @@
   gap: 2.5rem;
   list-style: none;
 }
- .cabecalho a {
-    text-decoration: none;
-    color: #603d2e;
-    font-weight: bold;
- }
-
-.banner-afro {
-    background-image: url(img/banner-afro-zero.png);
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    position: relative;
-    background-repeat: no-repeat;
+.cabecalho a {
+  text-decoration: none;
+  color: #271c19;
+  font-weight: bold;
+  border-bottom: #271c19 solid 3px;
+  padding-bottom: 5px;
+  transition: 0.2 ease;
+}
+.cabecalho a:hover {
+  border-bottom: #e78fb3 solid 3px;
+  padding-bottom: 5px;
+  transition: 0.2 ease;
+  color: #e78fb3;
 }
 
-.banner-afro h1 {
-color: #603d2e;
-display: flex;
-width: 60%;
-position: absolute;
+/* MAIN */
+.banner {
+ 
+}
 
+ h1 {
+  color: #271c19;
+  font-size: 30px;
+  display: flex;
+  width: 50%;
+
+ 
+  
+}
+
+section {
+  background-image: url(img/banner-afro-zero.png);
+  background-size: cover;
+  height: 600px;
+  width: 80%;
+ margin: auto;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  margin-top: 20px;
 
 
 }
